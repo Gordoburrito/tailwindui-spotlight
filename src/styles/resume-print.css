@@ -1,0 +1,401 @@
+/* ==========================================================================
+   Resume Styles - Apply everywhere (web + print)
+   ========================================================================== */
+
+/* ==========================================================================
+   Resume layout (main article wrapper)
+   ========================================================================== */
+
+.resume-layout {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  padding: 2.5rem 3.5rem;
+  border-top: 3px solid #FFFF64;
+}
+
+/* ==========================================================================
+   Contact header
+   ========================================================================== */
+
+.resume-contact {
+  margin-bottom: 1.75rem;
+  text-align: center;
+}
+
+.resume-contact h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.03em;
+}
+
+.resume-contact .resume-title {
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #52525b;
+}
+
+.resume-contact .resume-location {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #71717a;
+}
+
+.resume-contact-bar {
+  display: inline-block;
+  margin-top: 0.875rem;
+  background-color: #FFFF64;
+  color: #333;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 0.4rem 1.25rem;
+  border-radius: 2px;
+}
+
+.resume-contact-bar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.resume-contact-bar a:hover {
+  text-decoration: underline;
+}
+
+.resume-separator {
+  color: #71717a;
+}
+
+/* ==========================================================================
+   Resume sections
+   ========================================================================== */
+
+.resume-section {
+  margin-bottom: 1.25rem;
+}
+
+.resume-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.625rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #333;
+}
+
+.resume-section-line {
+  flex: 1;
+  height: 1px;
+  background-color: #d4d4d8;
+}
+
+/* ==========================================================================
+   Skills
+   ========================================================================== */
+
+.resume-skills {
+  list-style-type: none;
+  padding-left: 1rem;
+  margin-left: 0.25rem;
+}
+
+.resume-skills li {
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #52525b;
+  position: relative;
+  padding-left: 0.625rem;
+}
+
+.resume-skills li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #71717a;
+  font-size: 0.875em;
+}
+
+.resume-skill-category {
+  font-weight: 700;
+  color: #333;
+}
+
+/* ==========================================================================
+   Experience
+   ========================================================================== */
+
+.resume-experience {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.resume-job-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.resume-job-meta {
+  font-weight: 400;
+  color: #52525b;
+}
+
+.resume-job-highlights {
+  margin-top: 0.125rem;
+  list-style-type: none;
+  padding-left: 1rem;
+  margin-left: 0.25rem;
+}
+
+.resume-job-highlights li {
+  margin-bottom: 0.1875rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #52525b;
+  position: relative;
+  padding-left: 0.625rem;
+}
+
+.resume-job-highlights li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #71717a;
+  font-size: 0.875em;
+}
+
+/* ==========================================================================
+   Education
+   ========================================================================== */
+
+.resume-education {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #52525b;
+  margin-left: 0.25rem;
+  padding-left: 1.625rem;
+}
+
+.resume-education p {
+  margin-bottom: 0.1875rem;
+}
+
+.resume-degree {
+  font-weight: 700;
+  color: #333;
+}
+
+.resume-certifications {
+  margin-top: 0.25rem;
+}
+
+/* ==========================================================================
+   Resume container
+   ========================================================================== */
+
+.resume-container {
+  margin-top: 0;
+  padding: 0 1rem;
+}
+
+/* ==========================================================================
+   Print-only styles
+   ========================================================================== */
+
+@media print {
+  /* Page setup */
+  @page {
+    size: letter;
+    margin: 0.4in 0.5in;
+  }
+
+  /* Widow and orphan control */
+  p, li, h1, h2, h3, h4, h5, h6, article, section, div {
+    widows: 3;
+    orphans: 3;
+  }
+
+  /* Keep headings with their content */
+  h1, h2, h3, h4, h5, h6,
+  .resume-section-title,
+  .resume-job-title {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Prevent breaking inside key elements */
+  .resume-contact,
+  .resume-education,
+  .resume-skills li,
+  .resume-job-highlights li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Hide non-resume elements */
+  .fixed.inset-0 {
+    display: none !important;
+  }
+
+  header.pointer-events-none {
+    display: none !important;
+  }
+
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Base styles */
+  body {
+    background: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .relative {
+    position: static !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+  /* Print layout adjustments */
+  .resume-layout {
+    padding: 0.4in 0.5in !important;
+    max-width: 100% !important;
+    border-top: 3px solid #FFFF64 !important;
+  }
+
+  .resume-container {
+    padding: 0 !important;
+  }
+
+  /* Print contact header */
+  .resume-contact {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .resume-contact h1 {
+    font-size: 2.75rem !important;
+    margin-bottom: 0.125rem !important;
+    letter-spacing: 0.03em !important;
+    color: #1a1a1a !important;
+  }
+
+  .resume-contact .resume-title {
+    font-size: 1.125rem !important;
+  }
+
+  .resume-contact .resume-location {
+    font-size: 0.9375rem !important;
+  }
+
+  .resume-contact-bar {
+    font-size: 0.8125rem !important;
+    padding: 0.4rem 1.5rem !important;
+    margin-top: 0.75rem !important;
+  }
+
+  /* Print sections */
+  .resume-section {
+    margin-bottom: 1.125rem !important;
+  }
+
+  .resume-section-title {
+    font-size: 0.75rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 0.5rem !important;
+    color: #333 !important;
+    letter-spacing: 0.15em !important;
+  }
+
+  .resume-section-line {
+    background-color: #d4d4d8 !important;
+  }
+
+  /* Print experience - use block layout for better page-break support */
+  .resume-experience {
+    display: block !important;
+  }
+
+  .resume-job-title {
+    font-size: 0.9375rem !important;
+    color: #1a1a1a !important;
+  }
+
+  .resume-job-meta {
+    font-weight: 400 !important;
+    color: #52525b !important;
+  }
+
+  .resume-job-highlights {
+    margin-top: 0.125rem !important;
+    break-before: avoid !important;
+    page-break-before: avoid !important;
+  }
+
+  .resume-job-highlights li {
+    font-size: 0.8125rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 0.125rem !important;
+  }
+
+  /* Print skills */
+  .resume-skills li {
+    font-size: 0.8125rem !important;
+    margin-bottom: 0.1875rem !important;
+  }
+
+  /* Print education */
+  .resume-education {
+    font-size: 0.8125rem !important;
+  }
+
+  /* Print color adjustments */
+  .resume-contact-bar,
+  .resume-section-line {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Page break handling - keep job entries together */
+  .resume-experience > article {
+    display: block !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  /* Keep job title with its bullet points */
+  .resume-job-title {
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+  }
+
+  /* Utility class for JS-triggered page breaks */
+  .print-break-before {
+    break-before: page !important;
+    page-break-before: always !important;
+  }
+}

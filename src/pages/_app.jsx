@@ -4,6 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import '@/styles/tailwind.css'
+import '@/styles/resume-print.css'
 import 'focus-visible'
 
 function usePrevious(value) {
