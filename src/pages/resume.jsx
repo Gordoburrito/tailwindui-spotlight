@@ -148,23 +148,28 @@ export default function Resume({ resume }) {
       {/* Color picker and download button - hidden when printing */}
       <div className="no-print mx-auto mb-16 mt-12 max-w-[750px] px-4 sm:px-14">
         {/* Title Section */}
-        <div className="mb-10 text-center">
-          <h2 className="text-2xl font-bold leading-relaxed text-zinc-900 dark:text-zinc-100 sm:text-3xl">
+        <div className="mb-10 flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
+          <img
+            src="https://i.pinimg.com/736x/ac/88/e5/ac88e58bf6471b2903176d5866a624cc.jpg"
+            alt="Buddy the Elf"
+            className="h-32 w-auto rounded-2xl object-cover shadow-lg sm:h-40"
+          />
+          <h2 className="text-center text-2xl font-bold leading-relaxed text-zinc-900 dark:text-zinc-100 sm:text-left sm:text-3xl">
             Gordon the{' '}
-            <input
-              type="text"
-              value={jobTitle}
-              onChange={handleTitleChange}
-              className="inline-block border-b-2 border-dashed bg-transparent text-center font-bold focus:outline-none"
-              style={{
-                width: `${Math.max(jobTitle.length + 2, 12)}ch`,
-                borderColor: accentColor,
-                color: 'inherit',
-              }}
-            />
-            ,
-            <br />
-            <span>what&apos;s your favorite color?</span>
+            <span className="inline-block whitespace-nowrap">
+              <input
+                type="text"
+                value={jobTitle}
+                onChange={handleTitleChange}
+                className="border-b-2 border-dashed bg-transparent font-bold focus:outline-none"
+                style={{
+                  width: `${jobTitle.length + 1}ch`,
+                  borderColor: accentColor,
+                  color: 'inherit',
+                }}
+              />,
+            </span>{' '}
+            what&apos;s your favorite color?
           </h2>
         </div>
 
