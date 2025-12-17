@@ -249,7 +249,7 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="https://drive.google.com/file/d/1rzJAGeioF3yw3PrJMMvOkMZ7E_2aKPL2/view?usp=sharing" target="_blank" variant="secondary" className="group mt-6 w-full">
+      <Button href="/resume" variant="secondary" className="group mt-6 w-full">
         Download Resumé
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>

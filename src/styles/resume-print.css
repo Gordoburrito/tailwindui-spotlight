@@ -13,7 +13,7 @@
   margin-right: auto;
   background: white;
   padding: 2.5rem 3.5rem;
-  border-top: 3px solid #FFFF64;
+  border-top: 3px solid var(--accent-color, #FFFF64);
 }
 
 /* ==========================================================================
@@ -50,8 +50,8 @@
 .resume-contact-bar {
   display: inline-block;
   margin-top: 0.875rem;
-  background-color: #FFFF64;
-  color: #333;
+  background-color: var(--accent-color, #FFFF64);
+  color: var(--accent-text-color, #333);
   font-weight: 600;
   font-size: 0.75rem;
   padding: 0.4rem 1.25rem;
@@ -284,7 +284,7 @@
   .resume-layout {
     padding: 0.4in 0.5in !important;
     max-width: 100% !important;
-    border-top: 3px solid #FFFF64 !important;
+    border-top: 3px solid var(--accent-color, #FFFF64) !important;
   }
 
   .resume-container {

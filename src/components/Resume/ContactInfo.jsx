@@ -1,9 +1,10 @@
-export function ContactInfo({ contact }) {
+export function ContactInfo({ contact, titleOverride }) {
+  const displayTitle = titleOverride || contact.title
   return (
     <header className="resume-contact">
       <h1>{contact.name}</h1>
-      {contact.title && (
-        <p className="resume-title">{contact.title}</p>
+      {displayTitle && (
+        <p className="resume-title">{displayTitle}</p>
       )}
       {contact.location && (
         <p className="resume-location">{contact.location}</p>
