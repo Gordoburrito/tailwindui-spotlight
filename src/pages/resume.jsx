@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Head from 'next/head'
 import {
   ResumeLayout,
@@ -49,6 +49,8 @@ export default function Resume({ resume }) {
   const [jobTitle, setJobTitle] = useState(DEFAULT_TITLE)
   const [customBgInput, setCustomBgInput] = useState('')
   const [customTextInput, setCustomTextInput] = useState('')
+  const [isCompact, setIsCompact] = useState(false)
+  const resumeRef = useRef(null)
 
   useEffect(() => {
     const savedBgColor = localStorage.getItem('resumeAccentColor')
@@ -72,6 +74,14 @@ export default function Resume({ resume }) {
     if (savedTitle) {
       setJobTitle(savedTitle)
     }
+  }, [])
+
+  // Auto-detect when resume content exceeds one printed page (~1056px = 11in at 96dpi)
+  useEffect(() => {
+    const el = resumeRef.current
+    if (!el) return
+    const PAGE_HEIGHT = 1056
+    setIsCompact(el.scrollHeight > PAGE_HEIGHT)
   }, [])
 
   const handleColorSelect = (color) => {
@@ -122,7 +132,7 @@ export default function Resume({ resume }) {
       </Head>
 
       {/* Resume content */}
-      <div className="resume-container" style={{ '--accent-color': accentColor, '--accent-text-color': textColor }}>
+      <div ref={resumeRef} className={`resume-container${isCompact ? ' resume-compact' : ''}`} style={{ '--accent-color': accentColor, '--accent-text-color': textColor }}>
         <ResumeLayout>
           <ContactInfo contact={resume.contact} titleOverride={jobTitle} />
 

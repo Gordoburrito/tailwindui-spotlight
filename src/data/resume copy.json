@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Gordon Lewis - Full Stack Engineer",
+    "description": "Full Stack Engineer based in the San Francisco Bay Area"
+  },
+  "contact": {
+    "name": "Gordon Lewis",
+    "title": "Full Stack Engineer",
+    "location": "San Francisco Bay Area · U.S. Remote",
+    "phone": "+1 (949) 933-9885",
+    "email": "glewis@berkeley.edu",
+    "github": "github.com/gordoburrito"
+  },
+  "experience": [
+    {
+      "company": "Rooster Grin Media",
+      "position": "Full Stack Engineer",
+      "location": "Remote",
+      "startDate": "Apr 2022",
+      "endDate": null,
+      "current": true,
+      "highlights": [
+        "Owned development of large Ruby on Rails applications supporting healthcare SaaS products, handling millions of patient records and hundreds of millions of outbound SMS and\u00A0email\u00A0messages.",
+        "Built and maintained HIPAA-compliant SaaS applications enabling patient communication, scheduling, and lead management through user-facing web\u00A0services\u00A0in\u00A0React.",
+        "Designed and integrated RESTful APIs connecting Rails backends and PostgreSQL databases with external systems; served as primary technical contact for\u00A0integration\u00A0partners.",
+        "Operated and scaled production infrastructure on AWS (EC2, RDS, S3, SES, SNS, CloudWatch, Lambda), ensuring reliability, observability,\u00A0and\u00A0compliance.",
+        "Identified deployment bottlenecks and implemented automation that increased development throughput by ~325% while reducing\u00A0manual\u00A0errors.",
+        "Independently designed and built a full-stack CRM (Rails + React) for patient and lead management, filling a critical operational gap in the product suite."
+      ]
+    },
+    {
+      "company": "Classic Parts Pro (CPP)",
+      "position": "Software Engineer — Data & Automation",
+      "location": "Remote",
+      "startDate": "2024",
+      "endDate": "2025",
+      "current": false,
+      "type": "Part-time / Contract",
+      "highlights": [
+        "Built data ingestion and normalization pipelines for automotive parts and vehicle fitment data from\u00A0multiple\u00A0vendors.",
+        "Designed relational schemas to support performant fitment queries across make, model, year, and\u00A0part\u00A0combinations."
+      ]
+    },
+    {
+      "company": "Rooster Grin Media",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "Jul 2021",
+      "endDate": "Apr 2022",
+      "current": false,
+      "highlights": [
+        "Supported and enhanced 750+ live websites, delivering features, fixes, and content updates under real\u00A0production\u00A0constraints.",
+        "Shipped features across multiple frameworks (Vue, PHP, React) while managing AWS infrastructure (S3, CloudFront, Route 53, CodePipeline) for\u00A0rapid\u00A0deployment."
+      ]
+    },
+    {
+      "company": "Advest Marketing",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "Jun 2020",
+      "endDate": "Jul 2021",
+      "current": false,
+      "highlights": [
+        "Designed and developed custom client websites end-to-end; contributed to an internal MERN-stack application, implementing core UI\u00A0components\u00A0in\u00A0React."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend",
+      "items": ["Ruby on Rails", "Python", "FastAPI", "PostgreSQL", "SQL", "REST APIs"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "JavaScript (ES6+)", "TypeScript", "Vue.js", "Tailwind CSS", "HTML", "CSS/Sass"]
+    },
+    {
+      "category": "Data",
+      "items": ["CSV pipelines", "scraping", "normalization", "schema design"]
+    },
+    {
+      "category": "Infrastructure",
+      "items": ["AWS (EC2, RDS, S3, SES, SNS, CloudWatch, Lambda, CloudFront, Route 53, CodePipeline)"]
+    },
+    {
+      "category": "Practices",
+      "items": ["Large codebases", "automation", "performance tuning", "production debugging"]
+    },
+    {
+      "category": "AI & APIs",
+      "items": ["OpenAI API", "Claude API", "LLM integration", "workflow automation"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "B.A.",
+      "field": "Practice of Art (Digital Fabrication)",
+      "startYear": "2013",
+      "endYear": "2017"
+    },
+    {
+      "institution": "General Assembly",
+      "degree": "Certificate",
+      "field": "User Experience Design",
+      "startYear": "2019",
+      "endYear": "2019"
+    }
+  ]
+}
