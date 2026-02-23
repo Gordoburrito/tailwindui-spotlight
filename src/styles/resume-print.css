@@ -398,4 +398,65 @@
     break-before: page !important;
     page-break-before: always !important;
   }
+
+  /* Compact mode — tighten spacing to fit on one page */
+  .resume-compact .resume-layout {
+    padding: 0.1in 0.45in !important;
+    border-top: none !important;
+  }
+
+  .resume-compact .resume-contact {
+    margin-bottom: 0.75rem !important;
+  }
+
+  .resume-compact .resume-contact h1 {
+    font-size: 2.125rem !important;
+    margin-bottom: 0.0625rem !important;
+  }
+
+  .resume-compact .resume-contact .resume-title {
+    font-size: 0.9375rem !important;
+  }
+
+  .resume-compact .resume-contact .resume-location {
+    font-size: 0.8125rem !important;
+  }
+
+  .resume-compact .resume-contact-bar {
+    font-size: 0.75rem !important;
+    padding: 0.25rem 1.25rem !important;
+    margin-top: 0.4rem !important;
+  }
+
+  .resume-compact .resume-section {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .resume-compact .resume-section-title {
+    margin-bottom: 0.3125rem !important;
+  }
+
+  .resume-compact .resume-experience > article {
+    margin-bottom: 0.3125rem !important;
+  }
+
+  .resume-compact .resume-job-title {
+    font-size: 0.8125rem !important;
+  }
+
+  .resume-compact .resume-job-highlights li {
+    font-size: 0.75rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 0.03125rem !important;
+  }
+
+  .resume-compact .resume-skills li {
+    font-size: 0.75rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 0.03125rem !important;
+  }
+
+  .resume-compact .resume-education {
+    font-size: 0.75rem !important;
+  }
 }

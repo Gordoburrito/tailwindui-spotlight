@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Gordon Lewis - Founding Engineer",
+    "description": "Founding Engineer with deep experience building AI-powered products end-to-end \u2014 from LLM integration and infrastructure to\u00A0user-facing\u00A0applications"
+  },
+  "contact": {
+    "name": "Gordon Lewis",
+    "title": "Founding Engineer",
+    "location": "San Francisco Bay Area · U.S. Remote",
+    "phone": "+1 (949) 933-9885",
+    "email": "glewis@berkeley.edu",
+    "github": "github.com/gordoburrito"
+  },
+  "experience": [
+    {
+      "company": "Rooster Grin Media",
+      "position": "Full Stack Engineer",
+      "location": "Remote",
+      "startDate": "Apr 2022",
+      "endDate": null,
+      "current": true,
+      "highlights": [
+        "Reduced website migration timelines from 90 days to under 10 minutes by building an AI-powered content generation platform that orchestrates LLMs to produce website copy, assign images, and provision hosting \u2014 serving\u00A0750+\u00A0clients.",
+        "Independently designed and built a full-stack CRM (Rails + React) from scratch as the sole engineer \u2014 owning stack selection, architecture, backend, frontend, and deployment\u00A0end-to-end.",
+        "Introduced AI-powered chat capabilities into the platform, integrating LLM APIs with practice data to give staff instant access to patient and appointment information through\u00A0natural-language\u00A0queries.",
+        "Developed an automated web scraping system that captures existing website structure and content, feeding an AI pipeline that generates contextually accurate replacement content at\u00A0scale.",
+        "Architected a unified integration layer connecting four third-party systems into a single platform, eliminating manual data entry and ensuring consistent records across all\u00A0vendor\u00A0systems.",
+        "Scaled the messaging infrastructure to deliver hundreds of millions of SMS and email communications while building international compliance features that expanded the platform\u2019s\u00A0reach\u00A0globally.",
+        "Designed a 5-step migration wizard that guides users through the complete website migration workflow with drag-and-drop sitemap editing, questionnaire parsing, and real-time content generation\u00A0progress\u00A0tracking.",
+        "Built a platform-wide monitoring and alerting system that detected telephony outages, messaging delivery failures, and data sync issues in real time, reducing incident response times from hours\u00A0to\u00A0minutes."
+      ]
+    },
+    {
+      "company": "Classic Parts Pro (CPP)",
+      "position": "Software Engineer \u2014 AI & Data",
+      "location": "Remote",
+      "startDate": "2024",
+      "endDate": "2025",
+      "current": false,
+      "type": "Part-time / Contract",
+      "highlights": [
+        "Built an AI-powered data pipeline matching parts to 317,000+ vehicles, orchestrating a cascading strategy that tries deterministic matching first and falls back to LLM calls only when needed \u2014 reducing API costs\u00A0by\u00A060\u201380%.",
+        "Designed relational schemas to support performant queries across make, model, year, and\u00A0part\u00A0combinations."
+      ]
+    },
+    {
+      "company": "Rooster Grin Media",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "Jul 2021",
+      "endDate": "Apr 2022",
+      "current": false,
+      "highlights": [
+        "Shipped features across multiple frameworks (Vue, PHP, React) while managing AWS infrastructure (S3, CloudFront, Route 53, CodePipeline) for\u00A0rapid\u00A0deployment.",
+        "Supported and enhanced 750+ live websites, delivering features, fixes, and content updates under real\u00A0production\u00A0constraints."
+      ]
+    },
+    {
+      "company": "Advest Marketing",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "Jun 2020",
+      "endDate": "Jul 2021",
+      "current": false,
+      "highlights": [
+        "Designed and developed custom client websites end-to-end; contributed to an internal MERN-stack application, implementing core UI\u00A0components\u00A0in\u00A0React."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "AI & LLMs",
+      "items": ["OpenAI API", "Claude API", "LLM orchestration", "prompt engineering", "RAG pipelines", "structured output"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Python", "FastAPI", "Ruby on Rails", "REST APIs", "PostgreSQL", "SQL"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "Vue.js", "HTML", "CSS/Sass"]
+    },
+    {
+      "category": "Infrastructure",
+      "items": ["AWS (EC2, RDS, S3, SES, SNS, CloudWatch, Lambda, CloudFront, Route 53, CodePipeline)", "Docker"]
+    },
+    {
+      "category": "Data",
+      "items": ["Web scraping", "data normalization", "CSV pipelines", "schema design"]
+    },
+    {
+      "category": "Practices",
+      "items": ["Greenfield architecture", "rapid iteration", "end-to-end ownership", "production debugging"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "B.A.",
+      "field": "Practice of Art (Digital Fabrication)",
+      "startYear": "2013",
+      "endYear": "2017"
+    },
+    {
+      "institution": "General Assembly",
+      "degree": "Certificate",
+      "field": "User Experience Design",
+      "startYear": "2019",
+      "endYear": "2019"
+    }
+  ]
+}

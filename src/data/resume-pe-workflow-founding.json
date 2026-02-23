@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Gordon Lewis - Founding Engineer",
+    "description": "Founding Engineer with full-stack expertise in workflow automation, systems architecture, and building data-intensive products\u00A0from\u00A0scratch"
+  },
+  "contact": {
+    "name": "Gordon Lewis",
+    "title": "Founding Engineer",
+    "location": "San Francisco Bay Area · U.S. Remote",
+    "phone": "+1 (949) 933-9885",
+    "email": "glewis@berkeley.edu",
+    "github": "github.com/gordoburrito"
+  },
+  "experience": [
+    {
+      "company": "Rooster Grin Media",
+      "position": "Full Stack Engineer",
+      "location": "Remote",
+      "startDate": "Apr 2022",
+      "endDate": null,
+      "current": true,
+      "highlights": [
+        "Independently designed and built a full-stack CRM (Rails + React) for lead and client management \u2014 owning architecture, backend, and frontend end-to-end as the sole engineer on\u00A0the\u00A0project.",
+        "Designed a real-time analytics dashboard displaying conversion rates, revenue metrics, and time-series trends, enabling managers to make data-driven decisions about marketing spend and\u00A0portfolio\u00A0performance.",
+        "Architected a unified integration layer connecting four third-party systems into a single platform, eliminating manual data entry and ensuring consistent records across all\u00A0vendor\u00A0systems.",
+        "Reduced website migration timelines from 90 days to under 10 minutes by building an AI-powered content generation platform that automatically produces website copy, assigns images, and provisions\u00A0hosting\u00A0infrastructure.",
+        "Designed an automated communication system \u2014 event-triggered outreach, scheduling rules, and follow-up sequences \u2014 reducing manual workflow and improving engagement across hundreds of\u00A0client\u00A0organizations.",
+        "Scaled the messaging infrastructure to deliver hundreds of millions of communications while building compliance features that expanded the platform\u2019s reach\u00A0internationally.",
+        "Built a platform-wide monitoring and alerting system that detected data sync failures, messaging delivery issues, and telephony outages in real time, reducing incident response times from hours\u00A0to\u00A0minutes.",
+        "Operated and scaled production infrastructure on AWS (EC2, RDS, S3, SES, SNS, CloudWatch, Lambda), ensuring reliability, observability, and\u00A0compliance."
+      ]
+    },
+    {
+      "company": "Classic Parts Pro (CPP)",
+      "position": "Software Engineer \u2014 Data & Automation",
+      "location": "Remote",
+      "startDate": "2024",
+      "endDate": "2025",
+      "current": false,
+      "type": "Part-time / Contract",
+      "highlights": [
+        "Built data ingestion and normalization pipelines processing vendor catalogs into structured, queryable formats \u2014 designing relational schemas to support performant queries across hundreds of thousands\u00A0of\u00A0records.",
+        "Reduced AI processing costs by 60\u201380% by designing a cascading matching strategy that uses deterministic lookups first and falls back to AI only\u00A0when\u00A0needed."
+      ]
+    },
+    {
+      "company": "Rooster Grin Media",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "Jul 2021",
+      "endDate": "Apr 2022",
+      "current": false,
+      "highlights": [
+        "Shipped features across multiple frameworks (Vue, PHP, React) while managing AWS infrastructure for\u00A0rapid\u00A0deployment.",
+        "Supported and enhanced 750+ live websites, delivering features, fixes, and content updates under real\u00A0production\u00A0constraints."
+      ]
+    },
+    {
+      "company": "Advest Marketing",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "Jun 2020",
+      "endDate": "Jul 2021",
+      "current": false,
+      "highlights": [
+        "Designed and developed custom client applications end-to-end; contributed to an internal full-stack application, implementing core UI\u00A0components\u00A0in\u00A0React."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Full Stack",
+      "items": ["Ruby on Rails", "React", "TypeScript", "JavaScript (ES6+)", "Python", "FastAPI", "Next.js"]
+    },
+    {
+      "category": "Data & Systems",
+      "items": ["PostgreSQL", "SQL", "REST APIs", "schema design", "data normalization", "CSV pipelines"]
+    },
+    {
+      "category": "AI & Automation",
+      "items": ["OpenAI API", "Claude API", "LLM integration", "workflow automation"]
+    },
+    {
+      "category": "Infrastructure",
+      "items": ["AWS (EC2, RDS, S3, SES, SNS, CloudWatch, Lambda, CloudFront, Route 53, CodePipeline)"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Tailwind CSS", "Vue.js", "HTML", "CSS/Sass"]
+    },
+    {
+      "category": "Practices",
+      "items": ["End-to-end ownership", "greenfield architecture", "production debugging", "performance tuning"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "B.A.",
+      "field": "Practice of Art (Digital Fabrication)",
+      "startYear": "2013",
+      "endYear": "2017"
+    },
+    {
+      "institution": "General Assembly",
+      "degree": "Certificate",
+      "field": "User Experience Design",
+      "startYear": "2019",
+      "endYear": "2019"
+    }
+  ]
+}

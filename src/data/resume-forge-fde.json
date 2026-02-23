@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Gordon Lewis - Forward Deployed Engineer",
+    "description": "Forward Deployed Engineer with experience building AI-powered automation, designing enterprise integrations, and deploying production systems end-to-end for\u00A0customer\u00A0organizations"
+  },
+  "contact": {
+    "name": "Gordon Lewis",
+    "title": "Forward Deployed Engineer",
+    "location": "San Francisco Bay Area",
+    "phone": "+1 (949) 933-9885",
+    "email": "glewis@berkeley.edu",
+    "github": "github.com/gordoburrito"
+  },
+  "experience": [
+    {
+      "company": "Rooster Grin Media",
+      "position": "Full Stack Engineer",
+      "location": "Remote",
+      "startDate": "Apr 2022",
+      "endDate": null,
+      "current": true,
+      "highlights": [
+        "Architected a unified integration layer connecting four third-party healthcare systems into a single platform, eliminating manual data entry and ensuring consistent patient, appointment, and billing records across all\u00A0vendor\u00A0systems.",
+        "Reduced website migration timelines from 90 days to under 10 minutes by building an AI-powered content generation platform that automatically produces website copy, assigns images, and provisions hosting infrastructure \u2014 serving\u00A0750+\u00A0clients.",
+        "Developed a complete telephony integration from scratch \u2014 scoping requirements across 100+ multi-location client organizations, designing the architecture, and deploying real-time call tracking, voicemail detection, and automated\u00A0call\u00A0routing.",
+        "Introduced AI-powered chat capabilities into the platform, giving customer staff instant access to patient and appointment data through natural-language\u00A0queries.",
+        "Scaled the messaging infrastructure to deliver hundreds of millions of SMS and email communications while building international compliance features that expanded the platform\u2019s reach to the\u00A0UK\u00A0and\u00A0Ireland.",
+        "Built a platform-wide monitoring and alerting system that detected telephony outages, messaging delivery failures, and data sync issues in real time, reducing incident response times from hours\u00A0to\u00A0minutes.",
+        "Independently designed and built a full-stack CRM (Rails + React) for client management from scratch \u2014 owning architecture, backend, and frontend end-to-end as the sole engineer on\u00A0the\u00A0project.",
+        "Designed an automated patient communication system \u2014 missed call text-back, business hours scheduling, no-show follow-ups, and recall reminders \u2014 reducing manual staff workload and improving patient\u00A0re-engagement."
+      ]
+    },
+    {
+      "company": "Classic Parts Pro (CPP)",
+      "position": "Software Engineer \u2014 Data & Automation",
+      "location": "Remote",
+      "startDate": "2024",
+      "endDate": "2025",
+      "current": false,
+      "type": "Part-time / Contract",
+      "highlights": [
+        "Built an AI-powered data pipeline matching parts to 317,000+ vehicles, reducing API costs by 60\u201380% through a cascading strategy that tries deterministic matching before falling back\u00A0to\u00A0AI.",
+        "Designed relational schemas to support performant fitment queries across make, model, year, and\u00A0part\u00A0combinations."
+      ]
+    },
+    {
+      "company": "Rooster Grin Media",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "Jul 2021",
+      "endDate": "Apr 2022",
+      "current": false,
+      "highlights": [
+        "Supported and enhanced 750+ live websites, delivering features, fixes, and content updates under real\u00A0production\u00A0constraints.",
+        "Shipped features across multiple frameworks (Vue, PHP, React) while managing AWS infrastructure (S3, CloudFront, Route 53, CodePipeline) for\u00A0rapid\u00A0deployment."
+      ]
+    },
+    {
+      "company": "Advest Marketing",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "startDate": "Jun 2020",
+      "endDate": "Jul 2021",
+      "current": false,
+      "highlights": [
+        "Designed and developed custom client websites end-to-end; contributed to an internal MERN-stack application, implementing core UI\u00A0components\u00A0in\u00A0React."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Integration & Systems",
+      "items": ["REST APIs", "PostgreSQL", "SQL", "Ruby on Rails", "Python", "FastAPI"]
+    },
+    {
+      "category": "AI & Automation",
+      "items": ["OpenAI API", "Claude API", "LLM integration", "prompt engineering", "workflow automation"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "JavaScript (ES6+)", "TypeScript", "Vue.js", "Tailwind CSS", "HTML", "CSS/Sass"]
+    },
+    {
+      "category": "Infrastructure",
+      "items": ["AWS (EC2, RDS, S3, SES, SNS, CloudWatch, Lambda, CloudFront, Route 53, CodePipeline)"]
+    },
+    {
+      "category": "Data",
+      "items": ["CSV pipelines", "scraping", "normalization", "schema design"]
+    },
+    {
+      "category": "Practices",
+      "items": ["Enterprise integrations", "process discovery", "production debugging", "performance tuning"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "B.A.",
+      "field": "Practice of Art (Digital Fabrication)",
+      "startYear": "2013",
+      "endYear": "2017"
+    },
+    {
+      "institution": "General Assembly",
+      "degree": "Certificate",
+      "field": "User Experience Design",
+      "startYear": "2019",
+      "endYear": "2019"
+    }
+  ]
+}
